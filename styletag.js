@@ -1,4 +1,4 @@
-(function (window, heuristics) {
+(function (window) {
 	
 	var styletag = {		
 		domain : "",
