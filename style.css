@@ -1,0 +1,74 @@
+/**
+ * 	RESET CSS
+ *  Normalize.css
+ *  TODO: Link them here. But be careful, since it might screw up document height calculation
+ */
+
+body {
+	width: 100%;
+	max-width: 100%;
+}
+
+/**
+ * 	STYLETAG STYLES
+ */
+.styletag-thumbnail {
+	width: 200px;
+	height: 200px; 
+	overflow: hidden;
+	margin: 10px;
+	display: inline-block;
+	background: black;
+	box-shadow: 0 0 2px #555555 !important;
+	cursor: pointer;
+}
+
+.styletag-thumbnail:hover {
+	opacity: 0.50;
+}
+
+
+#styletag-container {
+	z-index: 2147483647;
+	width: 100%;
+	background: #EEEEEE;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	left: 0;
+}
+
+#styletag-nav {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 20px;
+	background: #FBF7F7;
+	border-bottom: 1px solid #d1d1d1;
+	text-align: center;
+}
+
+#styletag-cancel {
+	font-size: 1.5em;
+	border-left: 1px solid #AAAAAA;
+	line-height: 50px;
+	float: right;
+	font-size: 15px;
+	text-align: center;	
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	width: 100px;
+	font-weight: bold;
+}
+
+#styletag-cancel:hover {
+	background: #E1DFDF;
+	text-decoration: none;
+}
+
+#styletag-logo {
+	background: url("http://www.stylet.ag/assets/images/fashionsns_title_logo.png") 0 -5px;
+	width: 197px;
+	height: 50px;
+	display: inline-block;
+}
