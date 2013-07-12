@@ -75,7 +75,7 @@
 			search : function(element) {
 				//Currencies written such as $123,214.12 or 123,123,123원
 				var suffixCurrecyRegex = /[0-9]*(,)*(\d{3},)*(,)*[0-9]+(\.[0-9][0-9])?(원|€)/;
-				var affixCurrencyRegex = /(\$|£|€)[0-9]*(,)*(\d{3},)*(,)*[0-9]+(\.[0-9][0-9])?/;
+				var affixCurrencyRegex = /(\$|£|€|₩)[0-9]*(,)*(\d{3},)*(,)*[0-9]+(\.[0-9][0-9])?/;
 				
 				var current = element;
 				var matches = null;
