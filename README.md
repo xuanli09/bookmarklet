@@ -18,3 +18,5 @@ This is the javascript linked by bookmarklet.js. It's a self executing anonymous
 index.html
 ----------
 A demonstration of how to include the bookmarklet in a "scrap" page
+
+Test
